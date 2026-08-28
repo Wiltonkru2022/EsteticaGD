@@ -1,0 +1,1 @@
+Arquivos visuais usados na demonstração da Estética GD.
