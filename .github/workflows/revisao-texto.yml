@@ -1,0 +1,28 @@
+name: Revisão de texto pt-BR
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  ortografia:
+    name: Ortografia em português
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instalar verificador
+        run: npm install --no-audit --no-fund
+
+      - name: Verificar textos do site
+        run: npm run spellcheck
