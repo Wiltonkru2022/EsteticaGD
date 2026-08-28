@@ -1,0 +1,13 @@
+{
+  "cSpell.import": [
+    "@cspell/dict-pt-br/cspell-ext.json"
+  ],
+  "cSpell.language": "pt,pt_BR",
+  "cSpell.enabledLanguageIds": [
+    "html",
+    "markdown",
+    "javascript",
+    "css",
+    "plaintext"
+  ]
+}
