@@ -1,0 +1,11 @@
+{
+  "name": "estetica-gd-site",
+  "private": true,
+  "scripts": {
+    "spellcheck": "cspell lint \"**/*.{html,md,js,css,txt}\" --no-progress --show-suggestions"
+  },
+  "devDependencies": {
+    "@cspell/dict-pt-br": "2.4.2",
+    "cspell": "10.1.1"
+  }
+}
